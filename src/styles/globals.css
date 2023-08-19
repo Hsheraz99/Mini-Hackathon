@@ -1,0 +1,131 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+} */
+
+.amount {
+  display: flex;
+   background-color: blueviolet;
+  color: white;
+  
+}
+
+.che {
+  margin-left: 5%;
+}
+
+.check {
+  margin-left: 55%;
+}
+.input {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.input input {
+   border: none;
+  padding: 8px 40px;
+  border-radius: 4px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.input input::placeholder {
+  color: #6b7280;
+}
+.main{
+  width: 400px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 8px #6b728040;
+  text-align: center;
+  margin-left: 28%;
+  margin-top: 5%;
+  height: 360px;
+}
+.btn{
+  background-color: blueviolet;
+  width: 100px;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+}
+.main-field{
+  width: 400px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 8px #6b728040;
+  text-align: center;
+  margin-left: 28%;
+  margin-top: 5%;
+  height: 200px;
+  
+}
+.main-dash{
+  width: 800px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 8px #6b728040;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 270px;
+  }
+.input-d{
+  width: 95%;
+  height: 40%; 
+  border-radius: 10px;
+}
+.input-c{
+  width: 95%;
+  height: 100%; 
+  }
+  .btn-d{
+    background-color: blueviolet;
+    width: 150px;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 78%;
+  }
+  .btn-l{
+    background-color: blueviolet;
+    color: white;    
+  }
+  .btn-try{
+    margin-left: 55%;
+    background-color: blueviolet;
+    color: white;
+  }
+  .btn-i{
+    margin-left: 55%;
+    background-color: blueviolet;
+    color: white;
+  }
+  .btns{
+    color: white;
+  }
